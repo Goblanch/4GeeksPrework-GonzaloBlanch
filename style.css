@@ -1,0 +1,34 @@
+body{
+    display: grid;
+    border: 1px solid black;
+    height: 700px;
+    width: 500px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.post-header{
+    display: flex;
+    position: inherit;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.user-img{
+    margin-top: 13px;
+    padding: 0px 10px 0px 10px;
+    font-size: 35px;
+}
+
+.user-data{
+    margin-top: 20px;
+    text-align: start;
+    line-height: 2px;
+}
+
+.post-actions{
+    margin: 14px 10px 0px auto;
+    height: 100%;
+    font-size: 35px;
+}
